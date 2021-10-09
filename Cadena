@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Cadena{
+      public static void main (String args [ ] ) {
+
+      Scanner entrada = new Scanner(System.in);
+      String cadena = "", cadena_substraccion = "";
+      int nCaracteres = 0, hasta = 0;
+
+      System.out.print("Introduce una cadena de caracteres; ");
+      cadena.entrada.nextLine();
+
+      nCarateres = cadena.length( );
+
+      System.out.println("La cadena de caracteres " + cadena + " posee " + nCaracteres + "caracteres");
+
+      System.out.print ("Desde que caracter deseas obtener la nueva cadena: ");
+      desde = nextInt ( );
+
+       System.out.print("Hasta que caracter deseas obtener la nueva cadena:");
+       hasta=entrada.nextInt ();
+
+       cadena_substraccion = cadena.substring (desde, hasta);
+       System.out.print("La nueva cadena es: " + cadena_substraccion);
+
